@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="navbar fixed bg-neutral text-neutral-content">
+    <div className="navbar fixed z-10 bg-neutral text-neutral-content">
       <div className="containerWrap flex justify-between">
         <button className="btn btn-ghost text-xl">NgortApp</button>
         {currentUser ? <button onClick={handleLogout} className="btn">Logout</button> : ""}
